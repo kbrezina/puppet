@@ -58,6 +58,7 @@ example is formatted for readability)
      "puppet_version"=>"3.3.0",
      "kind"=>"apply",
      "status"=>"unchanged",
+     "noop_run"=>false,
      "environment"=>"test_environment",
      "logs"=>
       [{"level"=>"warning",

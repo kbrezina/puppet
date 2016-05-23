@@ -15,6 +15,7 @@
         "puppet_version",
         "kind",
         "status",
+        "noop_run",
         "environment"
     ],
 
@@ -138,6 +139,11 @@
                 "changed",
                 "unchanged"
             ]
+        },
+
+        "noop_run": {
+            "description": "Whether the puppet run was started in noop mode.",
+            "type":        "boolean"
         },
 
         "environment": {
